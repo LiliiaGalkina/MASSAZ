@@ -1,108 +1,134 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Клиника здоровья доктора Заева</title>
-	<link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-	<div class="wrapper">
-		<header class="header">
-			<div class="container">
-				<div class="header__items">
-					<div class="header__item">
-						<div class="header__logo">
-							<img src="img/header/logo.jpg" alt="logotip">
-						</div>
-					</div>
-						<div class="header__item">
-							<div class="header__title">
-								<img src="img/header/nazvanie.jpg" alt="Name of clinic">
-							</div>
-						</div>
-						<div class="header__item">
-							<div class="header__phones phones">
-								<div class="phones__text">Запись на прием:</div>
-								<div class="phones__number">+9 999-999-99-99</div>
-								<div class="phones__number">+9 999-999-99-99</div>
-							</div>
-						</div>
-					
-				</div>
-				<div class="header__items-dop">
-					<div class="header__item-dop header__item-dop_blue">
-						Лечение взрослых и детей без лекарств.
-					</div>
-					<div class="header__item-dop header__item-dop_red">
-						Гибкая система скидок и спецпредложений.
-					</div>
-				</div>
-				<hr class="header__line">
-				<nav class="header__menu menu-header">
-					<div id="burger" class="menu-header__burger"><span></span></div>
-					<ul id="menu" class="menu-header__list">
-						<li><a href="index.html" class="menu-header__link">Главная</a></li>
-						<li><a href="massaz.html" class="menu-header__link">О массаже</a></li>
-						<li><a href="doctor.html" class="menu-header__link">Наши врачи</a></li>
-						<li><a href="price.html" class="menu-header__link">Цены и скидки</a></li>
-						<li><a href="otzivi.html" class="menu-header__link">Отзывы</a></li>
-						<li><a href="kontakti.html" class="menu-header__link menu-header__link_act">Контакты</a></li>
-					</ul>
-				</nav>
-			</div>
-		</header>
-		<main class="main">
-			<div class="container">
-				<div class="kontakti">
-					<div class="kontakti__title">КОНТАКТЫ</div>
-					<div class="kontakti__message">Прием проводится только по предварительной записи!</div>
-					<div class="kontakti__items">
-						<div class="kontakti__item kontakti-phones">
-							<p>Запись на прием по телефонам:</p>
-							<p>тел. <span class="font-bold">+7 999-999-99-99</span></p>
-							<p>тел. <span class="font-bold">+7 999-999-99-99</span></p>
-						</div>
-						<div class="kontakti__item kontakti-adres">
-							<p>Мы находимся по адресу:</p>
-							<p><span class="font-bold">г.Тверь, XXXX XXXX XXXX</span></p>
-							<p>Остановка транспорта — XXXX XXXXX</p>
-						</div>
-					</div>
-					<div class="kontakti__map map">
-						<div class="map__text">Мы находимся тут:</div>
-						<div class="map map">
-							<div style="position:relative;overflow:hidden;">
-								<iframe
-									src="https://yandex.ru/map-widget/v1/?um=constructor%3A12a5b3c8d0a872bf41123f37dc4cad774154f33ecf8f1b3d9ed7a1b509807ba1&amp;source=constructor"
-									width="100%" height="677" frameborder="0"></iframe>
-							</div>
-					</div>
-				</div>
-			</div>
-		</main>
-		<footer class="footer">
-			<div class="container">
-				<div class="footer__title">“Болезнь может найти каждый. Цель остеопата – найти в теле здоровье”</div>
-				<div class="footer__items">
-					<div class="footer__item adres-footer">
-						<div class="adres-footer__text">Ждем вас по адресу:</div>
-						<div class="adres-footer__adres">г.Тверь, ул.XXXX XXX</div>
-						<div class="adres-footer__grafik">Мы работаем: <span class="font-bold">пн-пт с XX:XX до XX:XX</span> </div>
-					</div>
-					<div class="footer__item phones-footer">
-						<div class="phones-footer__text">Запись на прием по телефонам:</div>
-						<div class="phones-footer__phone">+X XXX-XXX-XX-XX</div>
-						<div class="phones-footer__phone">+X XXX-XXX-XX-XX</div>
-					</div>
-					<div class="footer__item link-footer">
-						<div class="link-footer__text">Мы вКонтакте:</div>
-						<a href="#" class="link-footer__button" target="_blank"><img src="img/button.png" alt=""></a>
-					</div>
-				</div>
-			</div>
-		</footer>
-	</div>
-	<script src="js/main.js"></script>
-</body>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Клиника здоровья</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header__items">
+            <div class="header__item">
+              <div class="header__logo">
+                <img src="img/header/logo.jpg" alt="logotip" />
+              </div>
+            </div>
+            <div class="header__item">
+              <div class="header__title">
+                <img src="img/header/nazvanie.jpg" alt="Name of clinic" />
+              </div>
+            </div>
+            <div class="header__item">
+              <div class="header__phones phones">
+                <div class="phones__text">Запись на прием:</div>
+                <div class="phones__number">+9 999-999-99-99</div>
+                <div class="phones__number">+9 999-999-99-99</div>
+              </div>
+            </div>
+          </div>
+          <div class="header__items-dop">
+            <div class="header__item-dop header__item-dop_blue">
+              Лечение взрослых и детей без лекарств.
+            </div>
+            <div class="header__item-dop header__item-dop_red">
+              Гибкая система скидок и спецпредложений.
+            </div>
+          </div>
+          <hr class="header__line" />
+          <nav class="header__menu menu-header">
+            <div id="burger" class="menu-header__burger"><span></span></div>
+            <ul id="menu" class="menu-header__list">
+              <li>
+                <a href="index.html" class="menu-header__link">Главная</a>
+              </li>
+              <li>
+                <a href="massaz.html" class="menu-header__link">О массаже</a>
+              </li>
+              <li>
+                <a href="doctor.html" class="menu-header__link">Наши врачи</a>
+              </li>
+              <li>
+                <a href="price.html" class="menu-header__link">Цены и скидки</a>
+              </li>
+              <li>
+                <a href="otzivi.html" class="menu-header__link">Отзывы</a>
+              </li>
+              <li>
+                <a
+                  href="kontakti.html"
+                  class="menu-header__link menu-header__link_act"
+                  >Контакты</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main class="main">
+        <div class="container">
+          <div class="kontakti">
+            <div class="kontakti__title">КОНТАКТЫ</div>
+            <div class="kontakti__message">
+              Прием проводится только по предварительной записи!
+            </div>
+            <div class="kontakti__items">
+              <div class="kontakti__item kontakti-phones">
+                <p>Запись на прием по телефонам:</p>
+                <p>тел. <span class="font-bold">+7 999-999-99-99</span></p>
+                <p>тел. <span class="font-bold">+7 999-999-99-99</span></p>
+              </div>
+              <div class="kontakti__item kontakti-adres">
+                <p>Мы находимся по адресу:</p>
+                <p><span class="font-bold">г.Тверь, XXXX XXXX XXXX</span></p>
+                <p>Остановка транспорта — XXXX XXXXX</p>
+              </div>
+            </div>
+            <div class="kontakti__map map">
+              <div class="map__text">Мы находимся тут:</div>
+              <div class="map">
+                <script
+                  async
+                  src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa4d6d5ef00398248f03ebc74c809debb75a6a4323048340cea04360638197ad3&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"
+                ></script>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__title">
+            “Болезнь может найти каждый. Цель остеопата – найти в теле здоровье”
+          </div>
+          <div class="footer__items">
+            <div class="footer__item adres-footer">
+              <div class="adres-footer__text">Ждем вас по адресу:</div>
+              <div class="adres-footer__adres">г.Тверь, ул.XXXX XXX</div>
+              <div class="adres-footer__grafik">
+                Мы работаем:
+                <span class="font-bold">пн-пт с XX:XX до XX:XX</span>
+              </div>
+            </div>
+            <div class="footer__item phones-footer">
+              <div class="phones-footer__text">
+                Запись на прием по телефонам:
+              </div>
+              <div class="phones-footer__phone">+X XXX-XXX-XX-XX</div>
+              <div class="phones-footer__phone">+X XXX-XXX-XX-XX</div>
+            </div>
+            <div class="footer__item link-footer">
+              <div class="link-footer__text">Мы вКонтакте:</div>
+              <a href="#" class="link-footer__button" target="_blank"
+                ><img src="img/button.png" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
 </html>

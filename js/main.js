@@ -10,8 +10,8 @@ function func() {
 
 //-------------------------------------------
 
-let blocks = document.querySelectorAll('#block');
-let buttons = document.querySelectorAll('#btn');
+let blocks = document.querySelectorAll('.block');
+let buttons = document.querySelectorAll('.btn');
 
 
 
